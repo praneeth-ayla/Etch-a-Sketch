@@ -1,0 +1,32 @@
+#container{
+    width: 500px;
+    height: 500px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10);
+    text-align: center;
+}
+
+.hovered{
+    background-color: red;
+}
+
+body{
+    text-align: center;
+    background-color: lightgray;
+}
+
+.mainBody{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    gap: 40px;
+}
