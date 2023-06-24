@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Etch-a-sketch</title>
+        <title>✏️Etch-a-sketch✏️</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         
     </head>
 
     <body>
-        <h1>Etch-a-sketch</h1>
+        <h1>✏️Etch-a-sketch</h1>
+        <h3>For best result select a number less than 50</h3>
+        <label for="gridSize">GRID SIZE: </label>
+        <input type="number" name="gridSize" id="gridSize" value="20">
+        <button id="changeGridSizeBtn">Change Size</button>
         <div class="mainBody">
             <div id="container">
             </div>
         </div>
         <div class="buttons">
-            <div>
-                <input type="radio" id="Black" value="Black" name="colors">
-                <label for="Black">Black</label>
+            <div >
+                <input type="radio" id="Black" value="Black" name="colors" checked>
+                <label for="Black">Black ✏️</label>
             </div>
-            <div>
+            <div id="grayy">
                 <input type="radio" id="Gray" value="Gray" name="colors">
-                <label for="Gray">Gray</label>
+                <label for="Gray">Gray✏️</label>
             </div>
-            <div>
+            <div id="redd">
                 <input type="radio" id="Red" value="Red" name="colors">
-                <label for="Red">Red</label>
+                <label for="Red">Red✏️</label>
             </div>
-            <div>
+            <div id="bluee">
                 <input type="radio" id="Blue" value="Blue" name="colors">
-                <label for="Blue">Blue</label>
-            </div>
+                <label for="Blue">Blue✏️</label>
+            </div> 
             <div>
-                <input type="radio" id="Random" value="Random" name="colors">
-                <label for="Random">Random</label>
-            </div>
+                <input type="radio" id="White" value="whitesmoke" name="colors">
+                <label for="White">Eraser</label>
+            </div> 
             <button id="clearBtn">Clear</button>    
         </div>
 
