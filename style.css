@@ -1,6 +1,6 @@
 #container{
-    width: 500px;
-    height: 500px;
+    width: 490px;
+    height: 490px;
     background-color: whitesmoke;
     display: grid;
     text-align: center;
@@ -28,3 +28,10 @@ body{
     border: 1px solid rgb(143, 139, 139);
   }
   
+
+.footer{
+    padding: 20px;
+    /* border: 1; */
+    margin-top: auto ;
+
+}
